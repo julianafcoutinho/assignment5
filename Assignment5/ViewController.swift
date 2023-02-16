@@ -13,7 +13,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+   
+    var input = ""
+    @IBAction func convertBtn(_ sender: Any) {
+        input = amtField.text ?? ""
+        if (Int(input) != nil) { amountLabel.text = "Good amount!" }
+        else {amountLabel.text = "Invalid amount, please try again" }
+    }
+    
+    @IBOutlet weak var amtField: UITextField!
+    @IBAction func amountField(_ sender: Any) {
+    }
+    @IBOutlet weak var amountLabel: UILabel!
 }
 
