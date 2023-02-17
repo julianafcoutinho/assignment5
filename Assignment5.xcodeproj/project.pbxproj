@@ -60,17 +60,41 @@
 		A3186179299DCDDB00731E12 /* Assignment5 */ = {
 			isa = PBXGroup;
 			children = (
+				A318619629A014ED00731E12 /* Base */,
+				A318619529A014B800731E12 /* Model */,
+				A318619429A0148E00731E12 /* View */,
 				A318617A299DCDDB00731E12 /* AppDelegate.swift */,
 				A318617C299DCDDB00731E12 /* SceneDelegate.swift */,
-				A318617E299DCDDB00731E12 /* ViewController.swift */,
-				A3186192299EE39300731E12 /* ConverterViewController.swift */,
-				A3186180299DCDDB00731E12 /* Main.storyboard */,
 				A3186183299DCDE400731E12 /* Assets.xcassets */,
-				A3186185299DCDE400731E12 /* LaunchScreen.storyboard */,
 				A3186188299DCDE400731E12 /* Info.plist */,
-				A3186190299ED49E00731E12 /* CurrencyLogic.swift */,
 			);
 			path = Assignment5;
+			sourceTree = "<group>";
+		};
+		A318619429A0148E00731E12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3186192299EE39300731E12 /* ConverterViewController.swift */,
+				A318617E299DCDDB00731E12 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A318619529A014B800731E12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3186190299ED49E00731E12 /* CurrencyLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A318619629A014ED00731E12 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A3186180299DCDDB00731E12 /* Main.storyboard */,
+				A3186185299DCDE400731E12 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
