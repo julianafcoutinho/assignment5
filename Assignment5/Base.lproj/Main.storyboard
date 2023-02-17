@@ -44,58 +44,70 @@
                                         </connections>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="dmc-GS-u06">
-                                        <rect key="frame" x="67.333333333333329" y="313" width="218.33333333333337" height="31"/>
+                                        <rect key="frame" x="49.333333333333329" y="313" width="254.33333333333337" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uj0-dw-FjI">
-                                                <rect key="frame" x="0.0" y="0.0" width="71.333333333333329" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BR Real" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uj0-dw-FjI">
+                                                <rect key="frame" x="0.0" y="0.0" width="107.33333333333333" height="31"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ur0-4g-0OB">
-                                                <rect key="frame" x="169.33333333333337" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="205.33333333333337" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="realSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="abJ-yV-Bwt"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="RFY-2f-SjE">
-                                        <rect key="frame" x="67.333333333333329" y="416.66666666666669" width="218.33333333333337" height="31"/>
+                                        <rect key="frame" x="57.000000000000014" y="416.66666666666669" width="239.33333333333337" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9k-Iq-qaX">
-                                                <rect key="frame" x="0.0" y="0.0" width="71.333333333333329" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JP Yen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9k-Iq-qaX">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.333333333333329" height="31"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yrw-Mk-qg0">
-                                                <rect key="frame" x="169.33333333333337" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="190.33333333333331" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="yenSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZW7-F8-mcv"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="f9F-8G-509">
-                                        <rect key="frame" x="67.333333333333329" y="520.33333333333337" width="218.33333333333337" height="31"/>
+                                        <rect key="frame" x="36" y="520.33333333333337" width="281" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTc-28-oPg">
-                                                <rect key="frame" x="0.0" y="0.0" width="71.333333333333329" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CA Dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTc-28-oPg">
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="31"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dfk-9M-iXS">
-                                                <rect key="frame" x="169.33333333333337" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="232" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="dollarSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="Wkv-Zn-DhR"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="puI-Hi-V6O">
-                                        <rect key="frame" x="67.333333333333329" y="624" width="218.33333333333337" height="31"/>
+                                        <rect key="frame" x="71.000000000000014" y="624" width="211.33333333333337" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vg7-CY-Nm9">
-                                                <rect key="frame" x="0.0" y="0.0" width="71.333333333333329" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Euro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vg7-CY-Nm9">
+                                                <rect key="frame" x="0.0" y="0.0" width="64.333333333333329" height="31"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIW-xQ-P9P">
-                                                <rect key="frame" x="169.33333333333337" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="162.33333333333334" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="euroSwich:" destination="BYZ-38-t0r" eventType="valueChanged" id="HlM-dU-Hik"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -127,14 +139,156 @@
                     <connections>
                         <outlet property="amountLabel" destination="BMg-fB-zwe" id="voV-nL-hgO"/>
                         <outlet property="amtField" destination="hQz-YW-Egw" id="Lob-r5-2SB"/>
+                        <segue destination="PWC-e3-TWn" kind="presentation" identifier="toConverter" id="Lig-62-nlf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.38028169014085" y="-28.244274809160306"/>
+            <point key="canvasLocation" x="-469" y="-702"/>
+        </scene>
+        <!--Converter View Controller-->
+        <scene sceneID="QNK-UE-css">
+            <objects>
+                <viewController id="PWC-e3-TWn" customClass="ConverterViewController" customModule="Assignment5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h7N-hO-RNU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banknotes" translatesAutoresizingMaskIntoConstraints="NO" id="piL-h3-QIU">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="29" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t22-vQ-gC0">
+                                <rect key="frame" x="46" y="259.66666666666669" width="301" height="264.00000000000006"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Curency Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgP-HM-TW2">
+                                        <rect key="frame" x="0.0" y="0.0" width="301" height="35.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount in US$:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeH-sk-B7T">
+                                        <rect key="frame" x="46.333333333333329" y="34.666666666666629" width="208.66666666666669" height="30.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7F-Kz-gMp">
+                                        <rect key="frame" x="130" y="72" width="41.333333333333343" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="xxe-Ls-zVP">
+                                        <rect key="frame" x="27.333333333333329" y="99" width="246.66666666666669" height="30.333333333333343"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BR Real" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPD-h6-0MA">
+                                                <rect key="frame" x="0.0" y="0.0" width="107.33333333333333" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ea-p9-MU2">
+                                                <rect key="frame" x="205.33333333333337" y="0.0" width="41.333333333333343" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="Qoc-IZ-ezC">
+                                        <rect key="frame" x="34.666666666666671" y="131.33333333333331" width="231.66666666666663" height="30.333333333333343"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JP Yen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmQ-PU-13C">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.333333333333329" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3L-Yc-kxn">
+                                                <rect key="frame" x="190.33333333333331" y="0.0" width="41.333333333333343" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="8I7-Rm-paQ">
+                                        <rect key="frame" x="14" y="163.33333333333331" width="273.33333333333331" height="30.333333333333343"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CA Dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXa-cC-6Of">
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-uW-lh2">
+                                                <rect key="frame" x="232" y="0.0" width="41.333333333333314" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="98" translatesAutoresizingMaskIntoConstraints="NO" id="I3r-23-dWp">
+                                        <rect key="frame" x="48.666666666666671" y="195.66666666666663" width="203.66666666666663" height="30.333333333333343"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Euro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pc6-np-kqk">
+                                                <rect key="frame" x="0.0" y="0.0" width="64.333333333333329" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezo-9u-ysC">
+                                                <rect key="frame" x="162.33333333333331" y="0.0" width="41.333333333333343" height="30.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MrT-SK-e5e">
+                                        <rect key="frame" x="106" y="222" width="89" height="42"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Return"/>
+                                        <connections>
+                                            <action selector="convertBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="55v-Bm-e2I"/>
+                                            <action selector="returnButton:" destination="PWC-e3-TWn" eventType="touchUpInside" id="VKJ-vk-Hj2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cvM-SS-QvS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="piL-h3-QIU" firstAttribute="leading" secondItem="h7N-hO-RNU" secondAttribute="leading" id="MwA-PL-H2U"/>
+                            <constraint firstAttribute="trailing" secondItem="piL-h3-QIU" secondAttribute="trailing" id="PUu-8x-acy"/>
+                            <constraint firstAttribute="bottom" secondItem="piL-h3-QIU" secondAttribute="bottom" id="ffM-4D-HdV"/>
+                            <constraint firstItem="t22-vQ-gC0" firstAttribute="centerX" secondItem="h7N-hO-RNU" secondAttribute="centerX" id="hNf-zy-Ouo"/>
+                            <constraint firstItem="piL-h3-QIU" firstAttribute="top" secondItem="h7N-hO-RNU" secondAttribute="top" id="k84-ad-sia"/>
+                            <constraint firstItem="t22-vQ-gC0" firstAttribute="centerY" secondItem="h7N-hO-RNU" secondAttribute="centerY" id="nPQ-Gy-GwY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dollarAmount" destination="c7I-uW-lh2" id="Z0k-2g-QXV"/>
+                        <outlet property="dollarStack" destination="8I7-Rm-paQ" id="gd6-t7-Fly"/>
+                        <outlet property="euroAmount" destination="ezo-9u-ysC" id="HDy-Xs-gPs"/>
+                        <outlet property="euroStack" destination="I3r-23-dWp" id="cs3-S7-8BP"/>
+                        <outlet property="originalAmount" destination="R7F-Kz-gMp" id="RFi-kd-kLW"/>
+                        <outlet property="realAmount" destination="9Ea-p9-MU2" id="EeA-Ra-juP"/>
+                        <outlet property="realStack" destination="xxe-Ls-zVP" id="NQl-Vp-70K"/>
+                        <outlet property="yenAmount" destination="v3L-Yc-kxn" id="iHG-Me-EeB"/>
+                        <outlet property="yenStack" destination="Qoc-IZ-ezC" id="hFR-Ow-VmS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bvs-kb-04q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="251" y="-702"/>
         </scene>
     </scenes>
     <resources>
+        <image name="banknotes" width="1600" height="1123"/>
         <image name="currency" width="760" height="394"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
